@@ -165,9 +165,10 @@ function getScreeningOrientations() {
 function buildOrientations() {
     if (!Object.keys(orientations).length) {
         document.getElementById("orientations").innerHTML = `
-            <div class="you-can-donate-blood text-center mx-auto" style="max-width: 650px">
+            <div class="you-can-donate-blood text-center mx-auto" style="max-width: 750px">
                 <h2 class="fw-bolder mb-2">Você pode doar!</h2>
-                <p style="line-height: 1.7" class="px-3 mb-0">Com base nos critérios para doação de sangue do Hemocentro Unicamp, <span class="fs-6 text-red">não encontramos nenhum impeditivo</span> para sua doação da sangue.</p>
+                <p style="line-height: 1.7" class="px-3 mb-3">Com base nos critérios para doação de sangue do Hemocentro Unicamp, <span class="fs-6 text-red">não encontramos nenhum impeditivo</span> para sua doação da sangue. Caso você tenha interesse pela doação, acesse nosso <span class="fs-6 text-red">grupo no WhatsApp</span> para receber novidades.</p>
+                <a href="#" type="button" class="btn btn-red btn-step fw-bolder w-100 mx-w-300 d-block mx-auto" style="color: #fff !important;">VER GRUPO</a>
             </div>
         `;
         document.getElementsByClassName("hands-blood-line")[0].classList.remove("d-none");
@@ -205,7 +206,7 @@ function buildOrientations() {
         document.getElementById("orientations").insertAdjacentHTML("beforeend", html);
     });
 
-    document.getElementById("orientations").insertAdjacentHTML("beforeend", ` <p class="text-center fs-6 px-3 mt-3 mb-0"><b>Importante:</b> Todas as orientação são baseadas nos <a href="https://www.hemocentro.unicamp.br/perguntas-frequentes/criterios-para-doacao-de-sangue/" target="_blank">critérios para doação de sangue</a> do Hemocentro Unicamp.</p>`);
+    document.getElementById("orientations").insertAdjacentHTML("beforeend", ` <p class="text-center px-3 mt-3 mb-0" style="font-size: calc(.9rem + .1vw); line-height: 1.7"><b>Importante:</b> Todas as orientação são baseadas nos <a href="https://www.hemocentro.unicamp.br/perguntas-frequentes/criterios-para-doacao-de-sangue/" target="_blank">critérios para doação de sangue</a> do Hemocentro Unicamp.</p>`);
 }
 
 function buildNewQuestionByGroup(group) {
