@@ -1,0 +1,126 @@
+{
+  "group": "Vacinas",
+  "question": "Quais vacinas você recebeu nas últimas 4 semanas?",
+  "options": {
+    "cole": {
+      "label": "Cólera",
+      "orientation": "48 horas"
+    },
+    "polio_salk": {
+      "label": "Pólio (Salk)",
+      "orientation": "48 horas"
+    },
+    "dupla_adulto": {
+      "label": "Dupla do tipo adulto – dT (Difteria e Tétano)",
+      "orientation": "48 horas"
+    },
+    "dpt": {
+      "label": "DTPa (Difteria, Tétano e Coqueluche acelular)",
+      "orientation": "48 horas"
+    },
+    "tetra": {
+      "label": "Tetra (Difteria, Tétano, Coqueluche e Hemophillus influenzae do tipo b)",
+      "orientation": "48 horas"
+    },
+    "tetano": {
+      "label": "Tétano",
+      "orientation": "48 horas"
+    },
+    "febre_tifoide_injetavel": {
+      "label": "Febre tifoide (injetável)",
+      "orientation": "48 horas"
+    },
+    "meningite": {
+      "label": "Meningite",
+      "orientation": "48 horas"
+    },
+    "coqueluche": {
+      "label": "Coqueluche",
+      "orientation": "48 horas"
+    },
+    "peste": {
+      "label": "Peste",
+      "orientation": "48 horas"
+    },
+    "pneumococo": {
+      "label": "Pneumococo",
+      "orientation": "48 horas"
+    },
+    "leptospirose": {
+      "label": "Leptospirose",
+      "orientation": "48 horas"
+    },
+    "hepatite_b_recombinante": {
+      "label": "Hepatite B recombinante",
+      "orientation": "48 horas"
+    },
+    "hpv": {
+      "label": "HPV (Human Papiloma Vírus)",
+      "orientation": "48 horas"
+    },
+    "influenza": {
+      "label": "Influenza",
+      "orientation": "48 horas"
+    },
+    "vacina_antirrabica": {
+      "label": "Vacina Antirrábica (vacina inativada proveniente de cultivos celulares)",
+      "orientation": "Inaptidão 48 horas; 12 meses após exposição animal"
+    },
+    "polio_oral": {
+      "label": "Pólio oral (Sabin)",
+      "orientation": "4 semanas"
+    },
+    "febre_tifide_oral": {
+      "label": "Febre tifóide oral",
+      "orientation": "4 semanas"
+    },
+    "caxumba": {
+      "label": "Caxumba (Parotidite)",
+      "orientation": "4 semanas"
+    },
+    "triplice_viral": {
+      "label": "Tríplice viral (Caxumba, Sarampo e Rubéola)",
+      "orientation": "4 semanas"
+    },
+    "dupla_viral": {
+      "label": "Dupla viral (Sarampo e Rubéola)",
+      "orientation": "4 semanas"
+    },
+    "febre_amarela": {
+      "label": "Febre amarela",
+      "orientation": "4 semanas"
+    },
+    "sarampo": {
+      "label": "Sarampo",
+      "orientation": "4 semanas"
+    },
+    "bcg": {
+      "label": "BCG",
+      "orientation": "4 semanas"
+    },
+    "rubeola": {
+      "label": "Rubéola",
+      "orientation": "4 semanas"
+    },
+    "varicela": {
+      "label": "Varicela (Catapora)/Herpes zoster",
+      "orientation": "4 semanas"
+    },
+    "variola": {
+      "label": "Varíola",
+      "orientation": "4 semanas"
+    },
+    "rotavirus": {
+      "label": "Rotavírus",
+      "orientation": "4 semanas"
+    },
+    "influenza_spray_nasal": {
+      "label": "Influenza (Spray Nasal – Vírus vivo atenuado)",
+      "orientation": "4 semanas"
+    },
+    "covid_19": {
+      "label": "COVID-19",
+      "orientation": "48 horas para CoronaVac/Sinovac/Butantan, Covaxin; 7 dias para Astrazeneca/Oxford/Fiocruz, Janssen-Cilag, Sputnik V, Comirnaty (Pfizer/Biontech), Moderna"
+    }
+  }
+}

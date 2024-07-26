@@ -1,0 +1,26 @@
+{
+  "group": "Medicamentos Teratogênicos",
+  "question": "Quais medicamentos teratogênicos você já utilizou?",
+  "options": {
+    "isotretinoina": {
+      "label": "Isotretinoína",
+      "orientation": "1 mês de inaptidão após a última dose"
+    },
+    "finasterida": {
+      "label": "Finasterida",
+      "orientation": "1 mês após a interrupção do medicamento"
+    },
+    "dutasterida": {
+      "label": "Dutasterida",
+      "orientation": "6 meses após a interrupção do medicamento"
+    },
+    "acitretina": {
+      "label": "Acitretina",
+      "orientation": "3 anos após a interrupção do medicamento"
+    },
+    "etretinato": {
+      "label": "Etretinato",
+      "orientation": "Inaptidão definitiva"
+    }
+  }
+}

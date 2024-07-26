@@ -1,0 +1,46 @@
+{
+  "group": "Hormônios e Antimetabólicos",
+  "question": "Quais hormônios ou antimetabólicos você já utilizou?",
+  "options": {
+    "hormonio_crescimento_hipofisario_humano": {
+      "label": "Hormônio do crescimento hipofisário humano",
+      "orientation": "Definitivo"
+    },
+    "hormonio_gonadotrofico_hipofisario_humano": {
+      "label": "Hormônio gonadotrófico hipofisário humano",
+      "orientation": "Definitivo"
+    },
+    "antitireoidianos": {
+      "label": "Antitireoidianos de síntese: propiltiouracila, tiamazol, etc.",
+      "orientation": "Definitivo pela patologia de base"
+    },
+    "testosterona": {
+      "label": "Testosterona",
+      "orientation": "6 meses após a suspensão da medicação com prescrição, se usado como anabolizante inaptidão por 12 meses"
+    },
+    "danazol": {
+      "label": "Danazol",
+      "orientation": "6 meses após a suspensão da medicação"
+    },
+    "hormonio_crescimento_recombinante": {
+      "label": "Hormônio do crescimento recombinante",
+      "orientation": "Não há contraindicação"
+    },
+    "anticoncepcionais": {
+      "label": "Anticoncepcionais",
+      "orientation": "Não há contraindicação, exceto pílula do dia seguinte, que inapta até descartar a possibilidade de gravidez"
+    },
+    "hormonios_femininos": {
+      "label": "Hormônios femininos",
+      "orientation": "Não há contraindicação, a menos que estejam sendo usados para tratamento do câncer"
+    },
+    "outros_hormonios_hipofisarios_recombinantes": {
+      "label": "Outros hormônios hipofisários recombinantes",
+      "orientation": "Depende do motivo pelo qual o medicamento foi usado"
+    },
+    "anticolesterolinemicos": {
+      "label": "Anticolesterolêmicos: clofibrato, estatinas, etc.",
+      "orientation": "Não contraindicam a doação a menos que estejam sendo usados para tratamento de hiperlipidemia familiar"
+    }
+  }
+}

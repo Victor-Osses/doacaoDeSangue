@@ -1,0 +1,130 @@
+{
+  "group": "Cirurgias e Procedimentos",
+  "question": "Quais cirurgias ou procedimentos você já realizou?",
+  "options": {
+    "nefrolitotomia_extracorporea": {
+      "label": "Nefrolitotomia extracorpórea",
+      "orientation": "1 mês"
+    },
+    "ressecao_varizes": {
+      "label": "Ressecção de varizes",
+      "orientation": "Ressecção: 3 meses, esclerose apenas: 3 dias"
+    },
+    "extração_dentaria": {
+      "label": "Extração dentária",
+      "orientation": "7 dias após o procedimento"
+    },
+    "tratamento_canal": {
+      "label": "Tratamento de canal, drenagem de abscesso, gengivites e cirurgias com anestesia local",
+      "orientation": "1 semana após o procedimento ou uma semana após o término do anti-inflamatório e/ou do antibiótico"
+    },
+    "procedimentos_sem_anestesia": {
+      "label": "Procedimentos sem anestesia e sangramento (por exemplo: pequenas cáries e ajuste de aparelhos)",
+      "orientation": "1 dia após o procedimento"
+    },
+    "remoção_tártaro": {
+      "label": "Remoção de tártaro e outros procedimentos com anestesia local (por exemplo: obturações)",
+      "orientation": "3 dias após o procedimento"
+    },
+    "apendicectomia": {
+      "label": "Apendicectomia",
+      "orientation": "3 meses"
+    },
+    "hemorroidectomia": {
+      "label": "Hemorroidectomia",
+      "orientation": "3 meses"
+    },
+    "hernioplastia": {
+      "label": "Hernioplastia",
+      "orientation": "3 meses, se por vídeo 6 meses"
+    },
+    "cirurgia_plastica_nao_extensa": {
+      "label": "Cirurgia plástica estética ou reparadora não extensa",
+      "orientation": "Apto após 3 meses (Se houve necessidade de intubação orotraqueal, aguardar 6 meses)"
+    },
+    "amigdalectomia": {
+      "label": "Amigdalectomia",
+      "orientation": "3 meses"
+    },
+    "colecistectomia": {
+      "label": "Colecistectomia",
+      "orientation": "6 meses"
+    },
+    "vagotomia_super_seletiva": {
+      "label": "Vagotomia super-seletiva",
+      "orientation": "6 meses"
+    },
+    "histerectomia": {
+      "label": "Histerectomia",
+      "orientation": "6 meses"
+    },
+    "laminectomia": {
+      "label": "Laminectomia",
+      "orientation": "6 meses"
+    },
+    "artrodese_coluna": {
+      "label": "Artrodese de coluna",
+      "orientation": "6 meses"
+    },
+    "tireoidectomia": {
+      "label": "Tireoidectomia",
+      "orientation": "6 meses"
+    },
+    "nodo_de_mama": {
+      "label": "Nódulo de mama",
+      "orientation": "6 meses, após negativo para malignidade"
+    },
+    "cirurgia_odontologica_anestesia_geral": {
+      "label": "Cirurgias odontológicas com anestesia geral",
+      "orientation": "6 meses após o procedimento"
+    },
+    "procedimentos_endoscopicos": {
+      "label": "Procedimentos endoscópicos inclusive cirurgias laparoscópicas",
+      "orientation": "6 meses"
+    },
+    "cirurgia_cardiaca": {
+      "label": "Cirurgia cardíaca",
+      "orientation": "Definitiva, exceto correções de Comunicação interatrial (CIA), Comunicação interventricular (CIV) e Ablação para correção de arritmia: se alta médica, sem sequelas: apto"
+    },
+    "cirurgia_bariatrica": {
+      "label": "Cirurgia bariátrica",
+      "orientation": "6 meses após o procedimento"
+    },
+    "gastrectomia_total": {
+      "label": "Gastrectomia total",
+      "orientation": "Definitivo"
+    },
+    "pneumectomia_lobectomia": {
+      "label": "Pneumectomia ou lobectomia",
+      "orientation": "Definitivo"
+    },
+    "esplenectomia": {
+      "label": "Esplenectomia",
+      "orientation": "Definitivo, exceto se for pós-trauma"
+    },
+    "esplenectomia_pos_trauma": {
+      "label": "Esplenectomia pós-trauma",
+      "orientation": "12 meses"
+    },
+    "nefrectomia": {
+      "label": "Nefrectomia",
+      "orientation": "12 meses"
+    },
+    "ressecao_aneurisma": {
+      "label": "Ressecção de aneurisma",
+      "orientation": "Inaptidão definitiva"
+    },
+    "colectomia": {
+      "label": "Colectomia",
+      "orientation": "12 meses"
+    },
+    "cirurgia_politrauma": {
+      "label": "Cirurgia de politrauma",
+      "orientation": "12 meses sem sequelas / A critério médico, se houver sequelas"
+    },
+    "cirurgias_miopia_catarata": {
+      "label": "Cirurgias de miopia ou catarata",
+      "orientation": "Após alta oftalmológica"
+    }
+  }
+}

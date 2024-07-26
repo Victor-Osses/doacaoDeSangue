@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="main.js"></script>
+    <title>Você pode doar?</title>
+</head>
+
+<body>
+    <main>
+        <section id="step_0" class="step step-0 d-flex flex-column align-items-center justify-content-center">
+            <div class="step-header w-100 ">
+                <h1 class="ff-montserrat-alternates text-xl-start text-center d-block mb-0">DOAÇÃO DE<br>SANGUE</h1>
+                <h2 class="ff-covered-grace text-xl-start text-center d-block mb-0">Salva Vidas</h2>
+                <div
+                    class="line-points d-flex justify-content-xl-start justify-content-center me-xl-auto ms-xl-0 mx-auto">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="step-body w-100">
+                <img src="assets/img/save_the_date.png" class="img-fluid w-100 d-xl-block d-none">
+                <img src="assets/img/hand_line.png" class="w-100 img-fluid d-xl-none d-block mt-4">
+            </div>
+            <div class="step-footer w-100 ">
+                <div class="d-flex flex-xl-row flex-column align-items-center">
+                    <h3 class="fs-1 text-nowrap ff-covered-grace me-xl-4 mb-xl-0 mb-3">Você pode doar?</h3>
+                    <button type="button"
+                        class="btn btn-red btn-step btn-next-step fw-bolder w-100 mx-w-300 ms-xl-3">Vamos
+                        descobrir!</button>
+                </div>
+                <p class="fs-6 mx-auto text-xl-start text-center mb-0 mt-3">Uma iniciativa <a
+                        href="https://www.instagram.com/trotedacidadania/">@trotedacidadania</a></p>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="heart heart-1 d-xl-block d-none" viewbox="0 0 90 90"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill-rule="evenodd" fill="rgb(22, 22, 22)"
+                    d="M20.862,85.128 C20.557,85.14 20.255,84.892 19.957,84.761 C12.914,81.658 9.365,74.606 7.58,68.813 C2.88,56.314 0.161,44.66 0.370,32.405 C1.190,14.444 7.130,4.22 18.20,1.433 C24.191,0.45 30.937,1.719 35.597,6.20 C38.254,8.465 40.237,11.612 41.657,15.636 C41.656,15.639 41.662,15.641 41.661,15.644 C42.674,18.527 43.269,21.500 43.689,24.211 C44.317,23.461 44.926,22.677 45.555,21.877 C47.174,19.794 48.852,17.639 51.45,15.746 C57.22,10.596 65.716,8.876 73.184,11.364 C80.728,13.853 86.572,20.445 88.267,28.149 C89.412,33.382 88.750,39.141 86.356,44.799 C84.36,50.293 80.402,54.870 77.877,57.837 C66.619,71.42 52.668,80.346 37.531,84.745 C33.187,86.1 26.833,87.361 20.862,85.128 ZM26.118,10.718 C24.205,10.2 22.71,9.829 20.106,10.302 C13.559,11.856 10.78,19.219 9.459,32.806 C8.979,43.162 11.17,54.136 15.505,65.421 C17.169,69.605 19.603,74.639 23.629,76.411 C26.294,77.585 29.930,77.458 35.23,75.988 C48.247,72.145 61.17,63.600 70.964,51.923 C74.361,47.942 76.590,44.551 77.986,41.257 C79.139,38.528 80.316,34.386 79.382,30.123 C78.385,25.557 74.832,21.524 70.302,20.17 C65.869,18.539 60.511,19.601 56.967,22.655 C55.458,23.954 54.129,25.663 52.720,27.472 C51.98,29.562 49.411,31.724 47.204,33.621 C46.618,34.122 45.274,35.267 43.305,35.560 C40.611,35.988 37.777,34.545 36.291,31.980 C35.334,30.313 35.120,28.655 34.960,27.444 C34.595,24.718 34.81,21.531 33.83,18.692 L33.83,18.692 C32.168,16.103 30.976,14.155 29.438,12.740 C28.484,11.860 27.344,11.176 26.118,10.718 ZM44.193,27.458 L44.249,27.479 L44.193,27.458 Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="heart heart-2 d-xl-block d-none" viewbox="0 0 110 110"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill-rule="evenodd" fill="rgb(22, 22, 22)"
+                    d="M73.380,100.90 C73.68,100.259 72.752,100.421 72.431,100.573 C64.851,104.152 56.516,102.37 50.102,99.799 C36.272,94.964 24.589,88.72 15.375,79.309 C1.184,65.811 -3.148,53.485 2.496,42.677 C5.684,36.544 11.953,32.255 18.818,31.491 C22.726,31.51 26.731,31.667 31.55,33.370 C31.57,33.373 31.63,33.370 31.64,33.373 C34.159,34.598 37.30,36.231 39.561,37.821 C39.392,36.768 39.182,35.708 38.972,34.619 C38.415,31.801 37.839,28.882 37.848,25.726 C37.878,17.133 42.669,8.751 50.49,4.384 C57.482,0.44 67.77,0.147 74.625,3.958 C79.748,6.752 84.13,11.408 86.959,17.417 C89.822,23.248 90.994,29.505 91.631,33.700 C94.458,52.390 92.153,70.510 84.964,86.103 C82.897,90.574 79.480,96.772 73.380,100.90 ZM15.916,42.643 C13.961,43.706 12.295,45.338 11.281,47.293 C7.886,53.788 11.458,61.908 22.194,72.118 C30.371,79.906 40.854,86.63 53.342,90.428 C57.973,92.46 63.852,93.638 68.184,91.590 C71.52,90.236 73.544,87.154 75.971,81.914 C82.249,68.292 84.336,51.686 81.831,35.166 C80.981,29.529 79.782,25.274 78.69,21.774 C76.648,18.877 74.80,14.952 69.906,12.676 C65.438,10.237 59.583,10.282 55.109,12.932 C50.729,15.525 47.777,20.690 47.760,25.786 C47.751,27.956 48.208,30.268 48.691,32.719 C49.252,35.546 49.826,38.477 49.811,41.647 C49.805,42.486 49.787,44.410 48.624,46.239 C47.52,48.761 43.842,50.62 40.669,49.454 C38.616,49.50 37.99,48.43 35.989,47.310 C33.486,45.665 30.496,43.812 27.448,42.607 L27.448,42.607 C24.664,41.511 22.211,41.101 19.949,41.356 C18.544,41.512 17.168,41.962 15.916,42.643 ZM42.592,39.724 L42.649,39.693 L42.592,39.724 Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="heart heart-3 d-xl-block d-none" viewbox="0 0 90 90"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill-rule="evenodd" fill="rgb(22, 22, 22)"
+                    d="M20.862,85.128 C20.557,85.14 20.255,84.892 19.957,84.761 C12.914,81.658 9.365,74.606 7.58,68.813 C2.88,56.314 0.161,44.66 0.370,32.405 C1.190,14.444 7.130,4.22 18.20,1.433 C24.191,0.45 30.937,1.719 35.597,6.20 C38.254,8.465 40.237,11.612 41.657,15.636 C41.656,15.639 41.662,15.641 41.661,15.644 C42.674,18.527 43.269,21.500 43.689,24.211 C44.317,23.461 44.926,22.677 45.555,21.877 C47.174,19.794 48.852,17.639 51.45,15.746 C57.22,10.596 65.716,8.876 73.184,11.364 C80.728,13.853 86.572,20.445 88.267,28.149 C89.412,33.382 88.750,39.141 86.356,44.799 C84.36,50.293 80.402,54.870 77.877,57.837 C66.619,71.42 52.668,80.346 37.531,84.745 C33.187,86.1 26.833,87.361 20.862,85.128 ZM26.118,10.718 C24.205,10.2 22.71,9.829 20.106,10.302 C13.559,11.856 10.78,19.219 9.459,32.806 C8.979,43.162 11.17,54.136 15.505,65.421 C17.169,69.605 19.603,74.639 23.629,76.411 C26.294,77.585 29.930,77.458 35.23,75.988 C48.247,72.145 61.17,63.600 70.964,51.923 C74.361,47.942 76.590,44.551 77.986,41.257 C79.139,38.528 80.316,34.386 79.382,30.123 C78.385,25.557 74.832,21.524 70.302,20.17 C65.869,18.539 60.511,19.601 56.967,22.655 C55.458,23.954 54.129,25.663 52.720,27.472 C51.98,29.562 49.411,31.724 47.204,33.621 C46.618,34.122 45.274,35.267 43.305,35.560 C40.611,35.988 37.777,34.545 36.291,31.980 C35.334,30.313 35.120,28.655 34.960,27.444 C34.595,24.718 34.81,21.531 33.83,18.692 L33.83,18.692 C32.168,16.103 30.976,14.155 29.438,12.740 C28.484,11.860 27.344,11.176 26.118,10.718 ZM44.193,27.458 L44.249,27.479 L44.193,27.458 Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="heart heart-4 d-xl-block d-none" viewbox="0 0 110 110"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path fill-rule="evenodd" fill="rgb(22, 22, 22)"
+                    d="M73.380,100.90 C73.68,100.259 72.752,100.421 72.431,100.573 C64.851,104.152 56.516,102.37 50.102,99.799 C36.272,94.964 24.589,88.72 15.375,79.309 C1.184,65.811 -3.148,53.485 2.496,42.677 C5.684,36.544 11.953,32.255 18.818,31.491 C22.726,31.51 26.731,31.667 31.55,33.370 C31.57,33.373 31.63,33.370 31.64,33.373 C34.159,34.598 37.30,36.231 39.561,37.821 C39.392,36.768 39.182,35.708 38.972,34.619 C38.415,31.801 37.839,28.882 37.848,25.726 C37.878,17.133 42.669,8.751 50.49,4.384 C57.482,0.44 67.77,0.147 74.625,3.958 C79.748,6.752 84.13,11.408 86.959,17.417 C89.822,23.248 90.994,29.505 91.631,33.700 C94.458,52.390 92.153,70.510 84.964,86.103 C82.897,90.574 79.480,96.772 73.380,100.90 ZM15.916,42.643 C13.961,43.706 12.295,45.338 11.281,47.293 C7.886,53.788 11.458,61.908 22.194,72.118 C30.371,79.906 40.854,86.63 53.342,90.428 C57.973,92.46 63.852,93.638 68.184,91.590 C71.52,90.236 73.544,87.154 75.971,81.914 C82.249,68.292 84.336,51.686 81.831,35.166 C80.981,29.529 79.782,25.274 78.69,21.774 C76.648,18.877 74.80,14.952 69.906,12.676 C65.438,10.237 59.583,10.282 55.109,12.932 C50.729,15.525 47.777,20.690 47.760,25.786 C47.751,27.956 48.208,30.268 48.691,32.719 C49.252,35.546 49.826,38.477 49.811,41.647 C49.805,42.486 49.787,44.410 48.624,46.239 C47.52,48.761 43.842,50.62 40.669,49.454 C38.616,49.50 37.99,48.43 35.989,47.310 C33.486,45.665 30.496,43.812 27.448,42.607 L27.448,42.607 C24.664,41.511 22.211,41.101 19.949,41.356 C18.544,41.512 17.168,41.962 15.916,42.643 ZM42.592,39.724 L42.649,39.693 L42.592,39.724 Z" />
+            </svg>
+        </section>
+        <section id="step_1"
+            class="step step-1 d-flex d-none flex-column align-items-center justify-content-center overflow-hidden">
+            <div class="container px-0 mx-0 my-auto">
+                <h1 class="step-title ff-montserrat-alternates text-center d-block mb-4 px-4 mx-auto">VOCÊ PODE DOAR?
+                </h1>
+                <div class="line-points d-flex justify-content-center mx-auto mb-xl-5 mb-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="text-center px-3 mb-4">O Trote da Cidadania, em parceria com o Hemocentro de Campinas,
+                    preparou
+                    um questionário rápido
+                    para ajudar a orientar você sobre sua disponibilidade para doar sangue.</p>
+                <p class="text-center px-3 mb-xl-5 mb-4"><b>Importante:</b> O resultado deste questionário não é
+                    definitivo.
+                    A
+                    decisão final de doar cabe a você e
+                    será confirmada com uma avaliação médica no local de retirada.</p>
+                <button type="button"
+                    class="btn btn-red btn-step btn-next-step fw-bolder w-100 mx-w-300 d-block mx-auto">COMEÇAR
+                    QUESTIONÁRIO</button>
+                <img src="assets/img/heart_line.png"
+                    class="img-fluid w-100 d-md-none d-block position-absolute bottom-0 start-0"
+                    style="transform: translateY(20%) rotate(-.5deg)">
+            </div>
+        </section>
+        <section id="step_2" class="step step-2 d-flex d-none flex-column align-items-center justify-content-center">
+            <div class="container px-0 mx-0 my-auto px-3">
+                <h1 class="step-title ff-montserrat-alternates text-center d-block mb-4 mx-auto">QUESTIONÁRIO</h1>
+
+                <div class="line-points d-flex justify-content-center mx-auto mb-xl-5 mb-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <form id="preScreeningForm" submit="return false;">
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label  mb-2">Você passou por algum procedimento
+                            cirurgico
+                            nos últimos 12 meses? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="procedimento_cirurgico-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="procedimento_cirurgico">
+                                <label for="procedimento_cirurgico-yes"
+                                    class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="procedimento_cirurgico-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="procedimento_cirurgico"
+                                    checked>
+                                <label for="procedimento_cirurgico-no"
+                                    class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label  mb-2">Você toma ou já tomou algum
+                            anti-hipertensivo
+                            ou
+                            outros medicamentos
+                            cardiológicos? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="medicamento_cardiaco-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_cardiaco">
+                                <label for="medicamento_cardiaco-yes"
+                                    class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="medicamento_cardiaco-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_cardiaco"
+                                    checked>
+                                <label for="medicamento_cardiaco-no"
+                                    class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você toma ou já tomou algum medicamento
+                            psiquiátrico? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="medicamento_psiquiatrico-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_psiquiatrico">
+                                <label for="medicamento_psiquiatrico-yes"
+                                    class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="medicamento_psiquiatrico-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_psiquiatrico"
+                                    checked>
+                                <label for="medicamento_psiquiatrico-no"
+                                    class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você toma ou já tomou algum hormônio ou
+                            antimetabólico? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="hormonio_antimetabolico-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="hormonio_antimetabolico">
+                                <label for="hormonio_antimetabolico-yes"
+                                    class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="hormonio_antimetabolico-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="hormonio_antimetabolico"
+                                    checked>
+                                <label for="hormonio_antimetabolico-no"
+                                    class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você toma ou já tomou algum medicamento
+                            teratogênico? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="medicamento_teratogenico-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_teratogenico">
+                                <label for="medicamento_teratogenico-yes"
+                                    class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="medicamento_teratogenico-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="medicamento_teratogenico"
+                                    checked>
+                                <label for="medicamento_teratogenico-no"
+                                    class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você tomou alguma vacina nas últimas 4 semanas? <span
+                                class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="vacina-yes" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="vacina">
+                                <label for="vacina-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="vacina-no" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="vacina" checked>
+                                <label for="vacina-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+                <form id="othersForm" submit="return false;">
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você tem um diagnóstico de anemia ou apresenta sintomas sugestivos?
+                            <span class="text-red">*</span></label>
+                        </p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="anemia-yes" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="anemia">
+                                <label for="anemia-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="anemia-no" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="anemia" checked>
+                                <label for="anemia-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você apresenta sintomas sugestivos de COVID-19 ou teve contato íntimo
+                            com indivíduos diagnosticados? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="covid_19-yes" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="covid_19-sintomas_contato">
+                                <label for="covid_19-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="covid_19-no" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="covid_19-sintomas_contato" checked>
+                                <label for="covid_19-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você tem pelo menos 50kg (considerando o peso com
+                            desconto das
+                            vestimentas)? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="peso_minimo-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="peso_minimo" checked>
+                                <label for="peso_minimo-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="peso_minimo-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="peso_minimo">
+                                <label for="peso_minimo-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label">Selecione quaisquer uma das seguintes regiões em que você já esteve:
+                            <span class="text-red"></span></label>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="viagens-regiao_endemica_malaria"
+                                name="viagens-regiao_endemica_malaria" class="me-3">
+                            <label for="viagens-regiao_endemica_malaria" class="custom-checkbox me-3"></label>
+                            <label for="viagens-regiao_endemica_malaria">Região endêmica de malária</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="viagens-iraque" name="viagens-iraque">
+                            <label for="viagens-iraque" class="custom-checkbox me-3"></label>
+                            <label for="viagens-iraque">Iraque</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="viagens-reino_unido_irlanda_1980_1996"
+                                name="viagens-reino_unido_irlanda_1980_1996">
+                            <label for="viagens-reino_unido_irlanda_1980_1996" class="custom-checkbox me-3"></label>
+                            <label for="viagens-reino_unido_irlanda_1980_1996">Reino Unido ou Irlanda (entre
+                                1980-1996
+                                por 3
+                                meses ou mais)</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="d-flex align-items-start">
+                                <input type="checkbox" id="viagens-europa_1980_atual" name="viagens-europa_1980_atual">
+                                <label for="viagens-europa_1980_atual" class="custom-checkbox me-3"></label>
+                                <label for="viagens-europa_1980_atual">Europa (permaneceu por 5 anos ou mais após 1980
+                                    até os
+                                    dias
+                                    atuais)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="partos" class="form-label">Selecione quaisquer tipos de trabalho de
+                            parto ou procedimentos relacionados aos seus partos anteriores:</label>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="partos-parto_normal" name="partos-parto_normal" class="me-3">
+                            <label for="partos-parto_normal" class="custom-checkbox me-3"></label>
+                            <label for="partos-parto_normal">Parto normal</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="partos-cesariana" name="partos-cesariana" class="me-3">
+                            <label for="partos-cesariana" class="custom-checkbox me-3"></label>
+                            <label for="partos-cesariana">Cesárea</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="partos-abortamento" name="partos-abortamento" class="me-3">
+                            <label for="partos-abortamento" class="custom-checkbox me-3"></label>
+                            <label for="partos-abortamento">Abortamento</label>
+                        </div>
+                        <!-- <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="partos-amamentacao" name="partos-amamentacao" class="me-3">
+                            <label for="partos-amamentacao" class="custom-checkbox me-3"></label>
+                            <label for="partos-amamentacao">Amamentação</label>
+                        </div> -->
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="comportamento_sexual" class="form-label">Selecione quaisquer
+                            categorias de comportamento
+                            sexual que você se encaixe: </label>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-novo_parceiro"
+                                name="comportamento_sexual-novo_parceiro" class="me-3">
+                            <label for="comportamento_sexual-novo_parceiro" class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-novo_parceiro">Início de relação sexual com NOVO(a)
+                                parceiro(a) nos últimos 6 meses</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-sexo_por_dinheiro_drogas"
+                                name="comportamento_sexual-sexo_por_dinheiro_drogas" class="me-3">
+                            <label for="comportamento_sexual-sexo_por_dinheiro_drogas"
+                                class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-sexo_por_dinheiro_drogas">Sexo em troca de dinheiro ou
+                                drogas</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-violencia_sexual"
+                                name="comportamento_sexual-violencia_sexual" class="me-3">
+                            <label for="comportamento_sexual-violencia_sexual" class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-violencia_sexual">Vítima de violência sexual</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-relacao_com_infeccao_sexual"
+                                name="comportamento_sexual-relacao_com_infeccao_sexual" class="me-3">
+                            <label for="comportamento_sexual-relacao_com_infeccao_sexual"
+                                class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-relacao_com_infeccao_sexual">Relação com pessoa portadora
+                                de infecção
+                                sexualmente
+                                transmissível</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-historia_encarceramento"
+                                name="comportamento_sexual-historia_encarceramento" class="me-3">
+                            <label for="comportamento_sexual-historia_encarceramento"
+                                class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-historia_encarceramento">Histórico de encarceramento ou
+                                confinamento
+                                obrigatório
+                                não domiciliar</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="comportamento_sexual-terapia_renal_transfusao"
+                                name="comportamento_sexual-terapia_renal_transfusao" class="me-3">
+                            <label for="comportamento_sexual-terapia_renal_transfusao"
+                                class="custom-checkbox me-3"></label>
+                            <label for="comportamento_sexual-terapia_renal_transfusao">Parceiro de paciente em programa
+                                de terapia
+                                renal
+                                substitutiva ou com histórico de transfusão</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="drogas_ilicitas" class="form-label">Selecione quaisquer
+                            drogas
+                            ilícitas que você já tenha utilizado:</label>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-maconha" name="drogas_ilicitas-maconha"
+                                class="me-3">
+                            <label for="drogas_ilicitas-maconha" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-maconha">Maconha</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-lanca_perfume"
+                                name="drogas_ilicitas-lanca_perfume" class="me-3">
+                            <label for="drogas_ilicitas-lanca_perfume" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-lanca_perfume">Lança Perfume</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-crack_cocaina"
+                                name="drogas_ilicitas-crack_cocaina" class="me-3">
+                            <label for="drogas_ilicitas-crack_cocaina" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-crack_cocaina">Crack ou cocaína por via nasal</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-lsd_md" name="drogas_ilicitas-lsd_md"
+                                class="me-3">
+                            <label for="drogas_ilicitas-lsd_md" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-lsd_md">LSD, MD ou outra droga sintética</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-ayahuasca_cogumelo"
+                                name="drogas_ilicitas-ayahuasca_cogumelo" class="me-3">
+                            <label for="drogas_ilicitas-ayahuasca_cogumelo" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-ayahuasca_cogumelo">Chá de ayahuasca, cogumelo ou outros
+                                alucinógenos</label>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <input type="checkbox" id="drogas_ilicitas-drogas_injetaveis"
+                                name="drogas_ilicitas-drogas_injetaveis" class="me-3">
+                            <label for="drogas_ilicitas-drogas_injetaveis" class="custom-checkbox me-3"></label>
+                            <label for="drogas_ilicitas-drogas_injetaveis">Drogas injetáveis</label>
+                        </div>
+                    </div>
+                </form>
+
+
+                <button onclick="buildScreeningStep();" type="button"
+                    class="btn btn-red btn-step btn-next-step fw-bolder w-100 mx-w-300 d-block mx-auto mt-5">CONTINUAR</button>
+            </div>
+        </section>
+
+        <section id="step_3" class="step step-3 d-flex d-none flex-column align-items-center justify-content-center">
+            <div class="container px-0 mx-0 my-auto px-3">
+                <h1 class="step-title ff-montserrat-alternates text-center d-block mb-4 mx-auto">QUESTIONÁRIO
+                </h1>
+
+                <div class="line-points d-flex justify-content-center mx-auto mb-xl-5 mb-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <form id="screeningForm" onsubmit="return false;"></form>
+
+                <button onclick="getScreeningOrientations();" type="button"
+                    class="btn btn-red btn-step btn-next-step fw-bolder w-100 mx-w-300 d-block mx-auto mt-5">CONCLUIR</button>
+            </div>
+        </section>
+
+        <section id="step_4" class="step step-4 d-flex d-none flex-column align-items-center justify-content-center">
+            <div class="container px-0 mx-0 my-auto px-2" style="transform: translateY(-1.5rem);">
+                <h1 class="step-title ff-montserrat-alternates text-center d-block mb-4 px-4 mx-auto">ORIENTAÇÕES
+                </h1>
+
+                <div class="line-points d-flex justify-content-center mx-auto mb-xl-5 mb-4">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div id="orientations">
+
+                </div>
+            </div>
+
+            <img src="assets/img/hands_blood_line.png" class="hands-blood-line d-none position-absolute bottom-0"
+                style="width:450px; max-width: 90%;">
+        </section>
+    </main>
+</body>
+
+</html>

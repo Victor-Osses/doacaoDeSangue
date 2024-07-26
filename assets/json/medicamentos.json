@@ -1,0 +1,50 @@
+{
+  "group": "Medicamentos",
+  "question": "Quais medicamentos/categoria de medicamentos você utilizou nos últimos 6 meses?",
+  "options": {
+    "antibioticos_quimioterapicos": {
+      "label": "Antibióticos e quimioterápicos antibacterianos ou antifúngicos",
+      "orientation": "Inaptidão: 15 dias para antibióticos e 7 dias para antifúngicos"
+    },
+    "anti_helmintico_antiparasitario": {
+      "label": "Anti-helmíntico e antiparasitário (Albendazol, Mebendazol, Tiabendazol, Cambendazol, Metronidazol, Nitazoxanida, ivermectina, etc.)",
+      "orientation": "1 semana após o uso, fim do tratamento"
+    },
+    "analgesicos": {
+      "label": "Analgésicos: paracetamol, dipirona sódica ou similares",
+      "orientation": "Não contraindicam a doação, mesmo que tenham sido utilizados no dia da doação, se ausência de sinais/sintomas (se uso por febre, aguardar, no mínimo, 7 dias e será avaliado as causas da infecção)"
+    },
+    "antiobesidade_injetaveis": {
+      "label": "Antidiabético e Antiobesidade injetáveis (Liraglutida “Saxenda”, Semaglutida “Ozempic”, Trulicity “Dulagutida”, etc.)",
+      "orientation": "1 semana após cessar o uso da droga (término do tratamento), se utilizado para obesidade"
+    },
+    "corticosteroides_sistemicos": {
+      "label": "Corticosteroides sistêmicos",
+      "orientation": "Depende da doença para a qual foi utilizado. Inaptidão mínima de 48 horas após a suspensão"
+    },
+    "anticoagulantes": {
+      "label": "Anticoagulantes",
+      "orientation": "10 dias após a interrupção do medicamento"
+    },
+    "anti_inflamatorios": {
+      "label": "Anti-inflamatórios: ácido acetilsalicílico, diclofenacos, meloxicam, piroxicam, fenilbutazona, etc. (com efeito na função plaquetária)",
+      "orientation": "Não contraindicam a doação, porém não deve ser preparado concentrado de plaquetas a partir daquela doação, se o remédio foi usado nos últimos 3 dias"
+    },
+    "medicacao_pep_preexposicao": {
+      "label": "Medicação para profilaxia contra infecção por HIV pós-exposição (PEP) ou pré-exposição (PrEP)",
+      "orientation": "6 meses a contar da data da administração da última dose, ou seus respectivos(as) parceiros(as) sexuais."
+    },
+    "antidiabetico_oral": {
+      "label": "Antidiabético oral (Metformina, glicazida, glibenclamida)",
+      "orientation": "Metformina - Se uso para pré-diabetes ou ovário policístico – não há contraindicações à doação. Se uso para DM tipo II – de acordo com a patologia de base"
+    },
+    "hiperuricemicos": {
+      "label": "Hiperuricêmicos (Alopurinol)",
+      "orientation": "Não contra-indica a doação, se ausência de crises"
+    },
+    "anticonvulsivantes": {
+      "label": "Anticonvulsivantes",
+      "orientation": "Inaptidão enquanto estiver usando o medicamento (se for por crise convulsiva por 3 anos após a suspensão sem crises)"
+    }
+  }
+}

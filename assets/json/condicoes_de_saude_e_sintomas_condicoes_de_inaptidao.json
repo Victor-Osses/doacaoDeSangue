@@ -1,0 +1,263 @@
+{
+  "group": "Condições de Saúde e Sintomas Recentes",
+  "question": "Você apresenta alguma condição de saúde ou sintomas recentes?",
+  "options": {
+    "alcoolismo_cronico": {
+      "label": "Álcoolismo crônico",
+      "orientation": "Inapto definitivo."
+    },
+    "anafilaxia": {
+      "label": "Anafilaxia",
+      "orientation": "Inapto definitivo."
+    },
+    "acidente_vascular_cerebral": {
+      "label": "AVC",
+      "orientation": "Inapto definitivo."
+    },
+    "bronquite_asma": {
+      "label": "Bronquite e asma",
+      "orientation": "Inapto definitivo.",
+      "complement": "Crises com intervalos de 3 meses ou menos, sem controle com medicamentos por via inalatória."
+    },
+    "bronquite_asma_leve": {
+      "label": "Bronquite/asma leve",
+      "orientation": "Apto após 3 meses da última crise"
+    },
+    "babesiose": {
+      "label": "Babesiose",
+      "orientation": "Inapto definitivo."
+    },
+    "blastomicose_sistemica": {
+      "label": "Blastomicose",
+      "orientation": "Inapto definitivo."
+    },
+    "cancer": {
+      "label": "Câncer",
+      "orientation": "Inapto definitivo.",
+      "complement": "Exceto carcinoma in situ de cérvix uterina e carcinoma basocelular de pele."
+    },
+    "doenca_cardiovascular_grave": {
+      "label": "Doença cardiovascular",
+      "orientation": "Inapto definitivo.",
+      "complement": "Especial atenção para doença coronariana, angina, arritmia cardíaca grave, insuficiência cardíaca, doença valvular, aneurismas, má formações arteriovenosas, endocardite com sequela, miocardite com sequela, trombose arterial, trombose venosa recorrente e trombofilia."
+    },
+    "diabetes_tipo_1_2_insulino_dependente": {
+      "label": "Diabetes tipo I/II insulino-dependente",
+      "orientation": "Inapto definitivo."
+    },
+    "diabetes_tipo_2_controlado": {
+      "label": "Diabetes tipo II controlado",
+      "orientation": "Se inexistência de complicações e uso de medicamentos, liberados para doação. Se dúvidas, solicitar relatório médico."
+    },
+    "diabetes_tipo_2_nao_controlado": {
+      "label": "Diabetes tipo II não controlado",
+      "orientation": "Inapto até o controle da doença",
+      "complement": "Necessário relatório médico afirmando a inexistência de complicações cardiovasculares."
+    },
+    "doenca_de_chagas": {
+      "label": "Doença de Chagas",
+      "orientation": "Inapto definitivo."
+    },
+    "doencas_autoimunes_multiorgano": {
+      "label": "Doenças autoimunes multiorgano",
+      "orientation": "Inapto definitivo.",
+      "complement": "Exemplo: lúpus eritematoso sistêmico, tireoidites imunes, artrite reumatoide, espondilite anquilosante."
+    },
+    "doenca_pulmonar_grave": {
+      "label": "Doença pulmonar grave",
+      "orientation": "Inapto definitivo.",
+      "complement": "Especial atenção à enfisema, doença pulmonar obstrutiva crônica (DPOC), história de embolia pulmonar."
+    },
+    "doencas_endocrinas": {
+      "label": "Doenças endócrinas graves",
+      "orientation": "Inapto definitivo.",
+      "complement": "Exemplos: hiperaldosteronismo, hiperfunção hipofisária, hiperlipoproteinemias essenciais, hipertireoidismo, hipopituitarismo, insuficiência suprarrenal, síndrome de Cushing."
+    },
+    "doencas_gastrointestinais": {
+      "label": "Doenças gastrointestinais graves",
+      "orientation": "Inapto definitivo.",
+      "complement": "Exemplos: cirrose hepática, retocolite ulcerativa crônica, doença de Crohn, hepatopatia crônica de origem desconhecida, hipertensão porta, pancreatite crônica, pancreatite alcoólica aguda, infarto mesentérico, hemocromatose, hepatite após 11 anos de idade (exceto a A)."
+    },
+    "sindrome_de_gilbert": {
+      "label": "Síndrome de Gilbert",
+      "orientation": "Apto se assintomático",
+      "complement": "Principalmente, sem icterícia. Sintomático: aguardar 15 dias."
+    },
+    "doencas_neurologicas": {
+      "label": "Doenças neurológicas graves",
+      "orientation": "Inapto definitivo.",
+      "complement": "Exemplos: esclerose em placa, esclerose lateral amiotrófica, esclerose múltipla, hematoma extra ou subdural com sequela, leucoencefalopatia multifocal progressiva, neurofibromatose forma maior, miastenia gravis."
+    },
+    "hematoma_extra_subdural_sem_sequelas": {
+      "label": "Hematoma extra/subdural sem sequelas",
+      "orientation": "Apto após 6 meses"
+    },
+    "neurofibromatose_forma_menor": {
+      "label": "Neurofibromatose menor",
+      "orientation": "Apto"
+    },
+    "doenca_renal_cronica": {
+      "label": "Doença renal crônica",
+      "orientation": "Inapto definitivo."
+    },
+    "doencas_hemorragicas_congenitas_adquiridas": {
+      "label": "Doenças hemorrágicas",
+      "orientation": "Inapto definitivo."
+    },
+    "doenca_creutzfeldt_jakob": {
+      "label": "Doença de Creutzfeldt-Jakob",
+      "orientation": "Inapto definitivo.",
+      "complement": "Inclui histórico familiar de encefalopatia espongiforme humana e suas variantes, transplante de córnea e implante a base de dura-máter."
+    },
+    "elefantíase": {
+      "label": "Elefantíase",
+      "orientation": "Inapto definitivo."
+    },
+    "esquistossomose_hepatoesplenica": {
+      "label": "Esquistossomose hepatoesplênica",
+      "orientation": "Inapto definitivo."
+    },
+    "esquistossomose_intestinal": {
+      "label": "Esquistossomose intestinal",
+      "orientation": "Apto após tratamento",
+      "complement": "Sem sequelas."
+    },
+    "feocromocitoma": {
+      "label": "Feocromocitoma",
+      "orientation": "Inapto definitivo."
+    },
+    "hanseniase": {
+      "label": "Hanseníase",
+      "orientation": "Inapto definitivo."
+    },
+    "hepatite_viral": {
+      "label": "Hepatite viral",
+      "orientation": "Inapto definitivo.",
+      "complement": "Após 11 anos de idade (exceto para hepatite A)."
+    },
+    "infeccao_por_hbv_hcv_hiv_htlv": {
+      "label": "Infecção por HBV, HCV, HIV, HTLV",
+      "orientation": "Inapto definitivo."
+    },
+    "intoxicacoes_por_metais_pesados": {
+      "label": "Intoxicação por metais pesados",
+      "orientation": "Inapto definitivo."
+    },
+    "leishmaniose_visceral": {
+      "label": "Leishmaniose visceral",
+      "orientation": "Inapto definitivo."
+    },
+    "malaria_p_falciparum": {
+      "label": "Malária (P. falciparum)",
+      "orientation": "Apto após 12 meses"
+    },
+    "malaria_p_vivax_p_ovale": {
+      "label": "Malária (P. vivax/P. ovale)",
+      "orientation": "Apto após 3 anos",
+      "complement": "Pela possibilidade de recidivas tardias após tratamento."
+    },
+    "malaria_p_malariae": {
+      "label": "Malária (P. malariae)",
+      "orientation": "Indeterminado",
+      "complement": "Inaptidão definitiva – febre quartã."
+    },
+    "doenca_psiquiatrica_inimputabilidade": {
+      "label": "Doença psiquiátrica (inimputabilidade)",
+      "orientation": "Inapto definitivo."
+    },
+    "penfigo_foliaceo": {
+      "label": "Pênfigo foliáceo",
+      "orientation": "Inapto definitivo."
+    },
+    "psoriase_extensa": {
+      "label": "Psoríase extensa",
+      "orientation": "Inapto definitivo.",
+      "complement": "Com outras manifestações associadas."
+    },
+    "reacao_adversa_grave": {
+      "label": "Reação adversa grave",
+      "orientation": "Inapto definitivo.",
+      "complement": "Em doação anterior."
+    },
+    "tuberculose_extrapulmonar": {
+      "label": "Tuberculose extrapulmonar",
+      "orientation": "Inapto definitivo."
+    },
+    "atraso_menstrual": {
+      "label": "Atraso menstrual em mulheres em idade fértil",
+      "orientation": "Inaptidão até que se afaste a possibilidade de gravidez ou de outro problema que impeça a doação"
+    },
+    "alergias_dessensibilizacao": {
+      "label": "Alergias (tratamento de dessensibilização)",
+      "orientation": "3 dias após o fim do tratamento"
+    },
+    "diarreia": {
+      "label": "Diarreia",
+      "orientation": "1 semana após a cura"
+    },
+    "conjuntivite": {
+      "label": "Conjuntivite",
+      "orientation": "1 semana após a cura"
+    },
+    "extração_dentaria": {
+      "label": "Extração dentária",
+      "orientation": "7 dias após o procedimento"
+    },
+    "tratamento_canal": {
+      "label": "Tratamento de canal, drenagem de abscesso, gengivites e cirurgias com anestesia local",
+      "orientation": "1 semana após o procedimento ou uma semana após o término do anti-inflamatório e/ou do antibiótico"
+    },
+    "caxumba": {
+      "label": "Caxumba",
+      "orientation": "3 semanas após a cura"
+    },
+    "dengue": {
+      "label": "Dengue",
+      "orientation": "4 semanas após a cura"
+    },
+    "epilepsia": {
+      "label": "Epilepsia",
+      "orientation": "3 anos após suspensão do tratamento e sem relato de crise convulsiva"
+    },
+    "brucelose": {
+      "label": "Brucelose",
+      "orientation": "1 ano após o tratamento ou 8 semanas após a potencial exposição"
+    },
+    "herpes_zoster": {
+      "label": "Herpes Zoster",
+      "orientation": "6 meses após desaparecimento de sintomas"
+    },
+    "pielonefrite_aguda": {
+      "label": "Pielonefrite aguda",
+      "orientation": "1 mês após a cura"
+    },
+    "histerectomia": {
+      "label": "Histerectomia",
+      "orientation": "6 meses"
+    },
+    "amigdalectomia": {
+      "label": "Amigdalectomia",
+      "orientation": "3 meses"
+    },
+    "gastrectomia_total": {
+      "label": "Gastrectomia total",
+      "orientation": "Inapto definitivo."
+    },
+    "nefrrectomia": {
+      "label": "Nefrectomia",
+      "orientation": "12 meses"
+    },
+    "pneumectomia_lobectomia": {
+      "label": "Pneumectomia ou lobectomia",
+      "orientation": "Inapto definitivo"
+    },
+    "esplenectomia": {
+      "label": "Esplenectomia",
+      "orientation": "Inapto definitivo, exceto se for pós-trauma"
+    },
+    "ressecao_aneurisma": {
+      "label": "Ressecção de aneurisma",
+      "orientation": "Inapto definitivo"
+    }
+  }
+}

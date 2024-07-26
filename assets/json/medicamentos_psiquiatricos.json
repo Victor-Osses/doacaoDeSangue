@@ -1,0 +1,22 @@
+{
+  "group": "Medicamentos Psiquiátricos",
+  "question": "Quais medicamentos psiquiátricos você já utilizou?",
+  "options": {
+    "anfetaminas": {
+      "label": "Anfetaminas (Venvanse, Ritalina)",
+      "orientation": "24 horas (considerar patologia de base, e condições clínicas)"
+    },
+    "antipsicoticos": {
+      "label": "Antipsicóticos: haloperidol, clorpromazina, etc.",
+      "orientation": "7 dias após a suspensão do medicamento pelo médico assistente e avaliado caso a caso"
+    },
+    "antidepressivos": {
+      "label": "Antidepressivos",
+      "orientation": "Não contraindicam a doação, porém as condições clínicas serão avaliadas pelo profissional no momento da triagem clínica. Em casos de doses elevadas, a liberação da doação dependerá de avaliação médica após apresentação de relatório do médico/psiquiatra. Entende-se por dose elevada: 03 ou mais comprimidos/medicação ao dia e/ou associação de mais de 02 antidepressivos."
+    },
+    "ansioliticos": {
+      "label": "Ansiolíticos - Benzodiazepínicos (Alprazolam, Bromazepam, Clonazepam, Diazepam, etc.)",
+      "orientation": "Não contraindicam a doação, porém as condições clínicas serão avaliadas pelo profissional no momento da triagem clínica. Em casos de doses elevadas, a liberação da doação dependerá de avaliação médica após apresentação de relatório do médico/psiquiatra. Entende-se por dose elevada: 03 ou mais comprimidos/medicação ao dia e/ou associação de mais de 02 ansiolíticos."
+    }
+  }
+}

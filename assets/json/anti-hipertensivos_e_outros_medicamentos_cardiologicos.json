@@ -1,0 +1,42 @@
+{
+  "group": "Anti-Hipertensivos e Outros Medicamentos Cardiológicos",
+  "question": "Quais medicamentos cardiológicos você já utilizou?",
+  "options": {
+    "vasodilatadores": {
+      "label": "Vasodilatadores: hidralazina, minoxidil, etc.",
+      "orientation": "5 dias após a suspensão do medicamento"
+    },
+    "acao_central": {
+      "label": "Ação Central: metildopa, clonidina, reserpina",
+      "orientation": "48 horas após a suspensão do medicamento"
+    },
+    "beta_bloqueadores": {
+      "label": "Beta-bloqueadores: propranolol, atenolol, oxprenolol ou similares",
+      "orientation": "48 horas após a suspensão do medicamento"
+    },
+    "bloqueadores_alfa_adrenergicos": {
+      "label": "Bloqueadores alfa-adrenérgicos: prazosina, etc.",
+      "orientation": "48 horas após a suspensão do medicamento"
+    },
+    "diureticos": {
+      "label": "Diuréticos",
+      "orientation": "Não há contraindicação. Orientar o doador a fazer uma hidratação oral prévia mais rigorosa"
+    },
+    "inibidores_enzima_conversora": {
+      "label": "Inibidores de enzima conversora de angiotensina: captopril, enalapril, etc.",
+      "orientation": "Não há contraindicação"
+    },
+    "antagonistas_angiotensina_ii": {
+      "label": "Antagonistas de angiotensina II: losartana, etc.",
+      "orientation": "Não há contraindicação"
+    },
+    "bloqueadores_canais_calcio": {
+      "label": "Bloqueadores de canais de cálcio: nifedipina, etc.",
+      "orientation": "Não há contraindicação para doação de sangue total, porém é contraindicado doação por aférese"
+    },
+    "antiarritimicos": {
+      "label": "Antiarrítmicos: amiodarona, etc.",
+      "orientation": "Enquanto estiver usando o medicamento"
+    }
+  }
+}

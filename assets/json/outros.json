@@ -1,0 +1,130 @@
+{
+    "viagens": {
+      "question": "Selecione quaisquer uma das seguintes regiões em que você já esteve:",
+      "options": {
+        "regiao_endemica_malaria": {
+          "label": "Região endêmica de malária",
+          "orientation": "Aguardar 30 dias após o retorno para fazer a doação ."
+        },
+        "iraque": {
+          "label": "Iraque",
+          "orientation": "Aguardar 1 ano após o retorno para fazer a doação devido ao risco de Leishmaniose."
+        },
+        "reino_unido_irlanda_1980_1996": {
+          "label": "Reino Unido ou Irlanda (entre 1980-1996 por 3 meses ou mais)",
+          "orientation": "Inapto definitivo."
+        },
+        "europa_1980_atual": {
+          "label": "Europa (permaneceu por 5 anos ou mais após 1980 até os dias atuais)",
+          "orientation": "Inapto definitivo."
+        }
+      }
+    },
+    "partos": {
+      "question": "Selecione quaisquer tipos de trabalho de parto ou procedimentos relacionados aos seus partos anteriores:",
+      "options": {
+        "parto_normal": {
+          "label": "Parto normal",
+          "orientation": "Aguardar 90 dias para fazer a doação."
+        },
+        "cesariana": {
+          "label": "Cesariana",
+          "orientation": "Aguardar 180 dias para fazer a doação."
+        },
+        "abortamento": {
+          "label": "Abortamento",
+          "orientation": "Aguardar 12 semanas para fazer a doação."
+        },
+        "amamentacao": {
+          "label": "Amamentação",
+          "orientation": "Somente após 12 meses do parto."
+        }
+      }
+    },
+    "peso_minimo": {
+      "question": "Você tem pelo menos 50kg (considerando o peso com desconto das vestimentas)?",
+      "options": {
+        "no": {
+          "label": "Não",
+          "orientation": "Inapto para doar sangue."
+        }
+      }
+    },
+    "comportamento_sexual": {
+      "question": "Selecione quaisquer categorias de comportamento sexual que você se encaixe:",
+      "options": {
+        "novo_parceiro": {
+          "label": "Início de relação sexual com NOVO(a) parceiro(a) nos últimos 6 meses",
+          "orientation": "Inapto por 6 meses."
+        },
+        "sexo_por_dinheiro_drogas": {
+          "label": "Sexo em troca de dinheiro ou drogas",
+          "orientation": "Inapto por 12 meses."
+        },
+        "violencia_sexual": {
+          "label": "Vítima de violência sexual",
+          "orientation": "Inapto por 12 meses."
+        },
+        "relacao_com_infeccao_sexual": {
+          "label": "Relação com pessoa portadora de infecção sexualmente transmissível",
+          "orientation": "Inapto por 12 meses."
+        },
+        "historia_encarceramento": {
+          "label": "Histórico de encarceramento ou confinamento obrigatório não domiciliar",
+          "orientation": "Inapto por 12 meses."
+        },
+        "terapia_renal_transfusao": {
+          "label": "Parceiro de paciente em programa de terapia renal substitutiva ou com histórico de transfusão",
+          "orientation": "Inapto por 12 meses."
+        }
+      }
+    },
+    "drogas_ilicitas": {
+      "question": "Selecione quaisquer drogas ilícitas que você já tenha utilizado:",
+      "options": {
+        "maconha": {
+          "label": "Maconha",
+          "orientation": "Aguardar 12 horas após o uso."
+        },
+        "lanca_perfume": {
+          "label": "Lança Perfume",
+          "orientation": "Aguardar 6 meses após o uso."
+        },
+        "crack_cocaina": {
+          "label": "Crack ou cocaína por via nasal",
+          "orientation": "Aguardar 12 meses após o uso."
+        },
+        "lsd_md": {
+          "label": "LSD, MD ou outra droga sintética",
+          "orientation": "Aguardar 12 meses após o uso."
+        },
+        "ayahuasca_cogumelo": {
+          "label": "Chá de ayahuasca, cogumelo ou outros alucinógenos",
+          "orientation": "Aguardar 12 meses após o uso."
+        },
+        "drogas_injetaveis": {
+          "label": "Drogas injetáveis",
+          "orientation": "Inapto definitivo."
+        }
+      }
+    },
+    "anemia": {
+      "question": "Você tem um diagnóstico ou está com suspeita de anemia?",
+      "options": {
+        "yes": {
+          "label": "Sim",
+          "orientation": "Apto se atender aos seguintes critérios -> Mulheres: Hemoglobina ≥ 12,5 g/dL ou Microhematócrito ≥ 38%; Homens: Hemoglobina ≥ 13 g/dL ou Microhematócrito ≥ 39%"
+        }
+      }
+    },
+    "covid_19": {
+      "question": "Você apresenta sintomas sugestivos de COVID-19 ou teve contato íntimo com indivíduos diagnosticados",
+      "options": {
+        "yes": {
+          "label": "Sim",
+          "orientation": "Seguir recomendações atualizadas do Ministério da Saúde."
+        }
+      }
+    }
+}
+  
