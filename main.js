@@ -206,7 +206,7 @@ function buildOrientations() {
     });
 
     document.getElementById("orientations").insertAdjacentHTML("beforeend", ` 
-        <p class="text-center px-3 my-4" style="font-size: calc(.9rem + .1vw); line-height: 1.7"><b>Importante:</b> Todas as orientações são baseadas nos <a href="https://www.hemocentro.unicamp.br/perguntas-frequentes/criterios-para-doacao-de-sangue/" target="_blank">critérios para doação de sangue</a> do Hemocentro Unicamp.</p>
+        <p class="text-center px-3 mt-4 mb-5" style="font-size: calc(.9rem + .1vw); line-height: 1.7"><b>Importante:</b> Todas as orientações são baseadas nos <a href="https://www.hemocentro.unicamp.br/perguntas-frequentes/criterios-para-doacao-de-sangue/" target="_blank">critérios para doação de sangue</a> do Hemocentro Unicamp.</p>
 
         <div class="line-points d-flex justify-content-center mx-auto mb-xl-5 mb-4">
             <span></span>
