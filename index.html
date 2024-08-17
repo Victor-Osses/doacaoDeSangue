@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="main.css">
     <script src="assets/js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script src="assets/js/select2.min.js"></script>
     <script src="main.js"></script>
     <title>Você pode doar?</title>
@@ -214,8 +217,18 @@
 
 
                     <div class="form-group position-relative mb-4">
-                        <p class="form-label mb-2">Você toma ou já tomou algum medicamento
-                            teratogênico? <span class="text-red">*</span></label></p>
+                        <p class="form-label mb-2">Você toma ou já tomou algum medicamento teratogênico?
+
+                            <span class="text-red">*</span></label>
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Medicamentos com potenciais efeitos negativos no desenvolvimento fetal.">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="img-fluid" xml:space="preserve"
+                                    viewBox="0 0 12 12">
+                                    <path fill="#313131"
+                                        d="M6 0C2.68628 0 0 2.68628 0 6s2.68628 6 6 6 6-2.68628 6-6-2.68628-6-6-6zm.5 9.5h-1v-1h1v1zm.76514-3.32617C6.7329 6.50683 6.5 6.68457 6.5 7v.5h-1V7c0-.90234.71387-1.34863 1.23486-1.67383C7.2671 4.99317 7.5 4.81543 7.5 4.5c0-.55176-.44873-1-1-1h-1c-.55127 0-1 .44824-1 1V5h-1v-.5c0-1.10254.89697-2 2-2h1c1.10303 0 2 .89746 2 2 0 .90234-.71387 1.34863-1.23486 1.67383z" />
+                                </svg>
+                            </span>
+                        </p>
                         <div class="row">
                             <div class="col-6">
                                 <input id="medicamento_teratogenico-yes" type="radio"
@@ -285,6 +298,23 @@
                                 <input id="covid_19-no" type="radio" class="invisible position-absolute top-0 start-0"
                                     name="covid_19-sintomas_contato" checked>
                                 <label for="covid_19-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você ingeriu alguma substância alcoólica nas últimas 12 horas? <span
+                                class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="alcool_12horas-yes" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="alcool_12horas">
+                                <label for="alcool_12horas-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="alcool_12horas-no" type="radio"
+                                    class="invisible position-absolute top-0 start-0" name="alcool_12horas" checked>
+                                <label for="alcool_12horas-no" class="custom-checkable text-center w-100">Não</label>
                             </div>
                         </div>
                     </div>

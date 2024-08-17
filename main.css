@@ -2,6 +2,7 @@
     --bg-pink: #FFB6D1;
     --bg-light-pink: #FEF0EF;
     --red-color: #ff4951;
+    --second-red-color: #FF3131;
 }
 
 *,
@@ -381,6 +382,12 @@ table thead tr:first-child {
 .you-can-donate-blood p,
 .you-can-donate-blood p span {
     font-size: calc(.9rem + .3vw) !important;
+}
+
+.tooltip-icon svg {
+    width: calc(1rem + .3vw);
+    height: calc(1rem + .3vw);
+    cursor: pointer;
 }
 
 @keyframes step-in {

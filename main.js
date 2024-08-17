@@ -76,7 +76,43 @@ window.addEventListener("DOMContentLoaded", () => {
     };
 
     history.replaceState({ step: currentStep }, `Step ${currentStep}`, `#step_${currentStep}`);
+
+    handlerTooltips();
+
 });
+
+function handlerTooltips() {
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    let activeTooltip = null;
+
+    tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+        const tooltip = new bootstrap.Tooltip(tooltipTriggerEl);
+
+        tooltipTriggerEl.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            if (tooltip._element.getAttribute('aria-describedby')) {
+                tooltip.hide();
+                activeTooltip = null;
+            } else {
+                if (activeTooltip) {
+                    activeTooltip.hide();
+                }
+                tooltip.show();
+                activeTooltip = tooltip;
+            }
+        });
+    });
+
+    document.addEventListener('click', function () {
+        if (activeTooltip) {
+            activeTooltip.hide();
+            activeTooltip = null;
+        }
+    });
+}
+
 
 function handleStepButtons() {
     document.querySelectorAll(".btn-next-step").forEach((btn) => {

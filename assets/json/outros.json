@@ -50,6 +50,15 @@
         }
       }
     },
+    "alcool_12horas": {
+      "question": "Você ingeriu alguma substância alcoólica nas últimas 12 horas?",
+      "options": {
+        "yes": {
+          "label": "Sim",
+          "orientation": "Inapto para doar sangue (prazos inferiores e consumo de pequenas quantidades devem ser avalizados pelo profissional de triagem)"
+        }
+      }
+    },
     "comportamento_sexual": {
       "question": "Selecione quaisquer categorias de comportamento sexual que você se encaixe:",
       "options": {
