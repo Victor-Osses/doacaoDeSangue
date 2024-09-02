@@ -204,7 +204,7 @@ function buildOrientations() {
             <div class="you-can-donate-blood text-center mx-auto" style="max-width: 750px">
                 <h2 class="fw-bolder mb-3">Você pode doar!</h2>
                 <p style="line-height: 1.7" class="px-3 mb-4">Com base nas suas respostas e nos critérios do Hemocentro Unicamp, <span class="fs-6 text-red">você está apto para doar sangue</span>. Ajude nessa causa nobre e participe do nosso <span class="fs-6 text-red">grupo no WhatsApp</span> para ficar por dentro das novidades!</p>
-                <a href="#" type="button" class="btn btn-red btn-step fw-bolder w-100 mx-w-300 d-block mx-auto" style="color: #fff !important;">VER GRUPO</a>
+                <a href="https://chat.whatsapp.com/D7Rkn3uGxeNL0d7AEQVJcv" target="_blank" type="button" class="btn btn-red btn-step fw-bolder w-100 mx-w-300 d-block mx-auto" style="color: #fff !important;">VER GRUPO</a>
             </div>
         `;
         document.getElementsByClassName("hands-blood-line")[0].classList.remove("d-none");
