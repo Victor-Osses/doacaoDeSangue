@@ -139,7 +139,7 @@ function buildScreeningStep() {
     document.getElementById("preScreeningForm").querySelectorAll("input:checked").forEach((input) => {
         const [group, selectedOption] = [input.id.split("-")[0], input.id.split("-")[1]];
         if (selectedOption === "yes" && !document.getElementById(`select_${group}`)) {
-            buildNewQuestionByGroup(group);
+            buildNewQuestionByGroup(group, 1);
         }
     });
 
@@ -255,13 +255,13 @@ function buildOrientations() {
             <span></span>
         </div>
 
-        <h2 class="text-center fs-3 fw-bolder mb-2">Amar faz bem, doar sangue também!</h2>
+        <h2 class="text-center fs-3 fw-bolder mb-2 px-3">Amar faz bem, doar sangue também!</h2>
         <p class="text-center px-3 mt-3 mb-4"> Caso você tenha interesse pela doação, acesse nosso <span class="text-red">grupo no WhatsApp</span> para receber novidades.</p>
 
-        <a href="#" type="button" class="btn btn-red btn-step fw-bolder w-100 mx-w-300 d-block mx-auto" style="color: #fff !important;">VER GRUPO</a>`);
+        <a href="https://chat.whatsapp.com/D7Rkn3uGxeNL0d7AEQVJcv" target="_blank" type="button" class="btn btn-red btn-step fw-bolder w-100 mx-w-300 d-block mx-auto" style="color: #fff !important;">VER GRUPO</a>`);
 }
 
-function buildNewQuestionByGroup(group) {
+function buildNewQuestionByGroup(group, isRequired = 0) {
     const question = group_options[group]["question"];
     const options = group_options[group]["options"];
     const container = document.getElementById("screeningForm");
@@ -272,9 +272,14 @@ function buildNewQuestionByGroup(group) {
         selectOptions += `<option value="${group}-${key}">${option["label"]}</option>`
     });
 
+    let requiredText = '';
+    if (isRequired) {
+        requiredText = '<span class="text-red">*</span>';
+    }
+
     let newQuestion = `
         <div class="form-group position-relative mb-4">
-            <label for="select_${group}" class="form-label mb-2">${question}</label>
+            <label for="select_${group}" class="form-label mb-2">${question} ${requiredText}</label>
             <div class="position-relative">
                 <input id="input_${group}" type="hidden" class="getValue select2Data">
                 <select id="select_${group}" name="select_${group}" multiple class="form-control select2">
