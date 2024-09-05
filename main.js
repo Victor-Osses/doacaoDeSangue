@@ -2,12 +2,12 @@ let currentStep = 0;
 
 let locks = {};
 let resolveLoad;
-
 locks['onload'] = new Promise((resolve, _) => {
     resolveLoad = resolve;
 });
 
 let group_options = {}
+
 let orientations = {};
 
 (async () => {

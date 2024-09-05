@@ -51,7 +51,7 @@
       }
     },
     "piercing": {
-      "label": "Piercing, tatuagem, maquiagem definitiva ou acupuntura",
+      "question": "Você realizou piercing, tatuagem, maquiagem definitiva ou acupuntura nos últimos 6 meses?",
       "options": {
         "yes": {
           "label": "Sim",
