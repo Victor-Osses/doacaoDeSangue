@@ -258,6 +258,54 @@
     "ressecao_aneurisma": {
       "label": "Ressecção de aneurisma",
       "orientation": "Inapto definitivo"
+    },
+    "dengue_hemorragica": {
+      "label": "Dengue hemorrágica",
+      "orientation": "6 meses se sem transfusão, com transfusão 12 meses"
+    },
+    "febre_tifoide": {
+      "label": "Febre tifoide",
+      "orientation": "1 semana após a cura"
+    },
+    "febre_amarela": {
+      "label": "Febre amarela",
+      "orientation": "9 meses após a vacinação ou 12 meses após a infecção natural"
+    },
+    "gripe_comum_influenza": {
+      "label": "Gripe comum/Influenza",
+      "orientation": "1 semana após cessarem os sintomas ou 2 semanas se febre persistir"
+    },
+    "sarampo": {
+      "label": "Sarampo",
+      "orientation": "4 semanas após a cura"
+    },
+    "zika_virus": {
+      "label": "Zika vírus",
+      "orientation": "4 semanas após o término dos sintomas"
+    },
+    "chikungunya": {
+      "label": "Chikungunya",
+      "orientation": "4 semanas após o término dos sintomas"
+    },
+    "varicela": {
+      "label": "Varicela (Catapora)",
+      "orientation": "3 semanas após a cura"
+    },
+    "herpes_simples_nao_zoster": {
+      "label": "Herpes simples (não Zoster)",
+      "orientation": "Apto após desaparecimento das lesões"
+    },
+    "mononucleose_infecciosa": {
+      "label": "Mononucleose infecciosa",
+      "orientation": "6 meses após a cura"
+    },
+    "sindrome_respiratoria_aguda_grave_sars": {
+      "label": "Síndrome respiratória aguda grave (SARS)",
+      "orientation": "24 meses após a cura sem complicações"
+    },
+    "rubéola": {
+      "label": "Rubéola",
+      "orientation": "2 semanas após a cura"
     }
   }
 }

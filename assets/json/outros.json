@@ -50,6 +50,16 @@
         }
       }
     },
+    "piercing": {
+      "label": "Piercing, tatuagem, maquiagem definitiva ou acupuntura",
+      "options": {
+        "yes": {
+          "label": "Sim",
+          "orientation": "Inapto por 6 meses após a realização.",
+          "complement": "Se não houver condição de avaliação da segurança do procedimento realizado, inaptidão por 12 meses. Se o procedimento foi na cavidade oral ou genital, a inaptidão é de 12 meses da retirada do piercing. Acupuntura, brincos e piercing em pele sob antissepsia apropriada: apto após 72 horas."    
+        }
+      }
+    },
     "alcool_12horas": {
       "question": "Você ingeriu alguma substância alcoólica nas últimas 12 horas?",
       "options": {

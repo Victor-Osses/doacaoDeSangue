@@ -223,7 +223,6 @@
 
                     <div class="form-group position-relative mb-4">
                         <p class="form-label mb-2">Você toma ou já tomou algum medicamento teratogênico?
-
                             <span class="text-red">*</span></label>
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="top"
                                 title="Medicamentos com potenciais efeitos negativos no desenvolvimento fetal.">
@@ -268,10 +267,26 @@
                             </div>
                         </div>
                     </div>
-
                 </form>
 
                 <form id="othersForm" submit="return false;">
+                    <div class="form-group position-relative mb-4">
+                        <p class="form-label mb-2">Você realizou piercing, tatuagem, maquiagem definitiva ou acupuntura
+                            nos últimos 6 meses? <span class="text-red">*</span></label></p>
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="piercing-yes" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="piercing">
+                                <label for="piercing-yes" class="custom-checkable text-center w-100">Sim</label>
+                            </div>
+                            <div class="col-6">
+                                <input id="piercing-no" type="radio" class="invisible position-absolute top-0 start-0"
+                                    name="piercing" checked>
+                                <label for="piercing-no" class="custom-checkable text-center w-100">Não</label>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="form-group position-relative mb-4">
                         <p class="form-label mb-2">Você tem um diagnóstico de anemia ou apresenta sintomas sugestivos?
                             <span class="text-red">*</span></label>

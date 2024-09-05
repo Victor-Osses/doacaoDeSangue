@@ -78,6 +78,7 @@
       "label": "Cirurgias odontológicas com anestesia geral",
       "orientation": "6 meses após o procedimento"
     },
+  
     "procedimentos_endoscopicos": {
       "label": "Procedimentos endoscópicos inclusive cirurgias laparoscópicas",
       "orientation": "6 meses"

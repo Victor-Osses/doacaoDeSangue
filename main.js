@@ -1,26 +1,26 @@
 let currentStep = 0;
-let anti_hipertensivos_med_cardiologicos = {};
-let cirurgias_procedimentos = {};
-let condicoes_saude_sintomas = {};
-let hormonios_antimetabolicos = {};
-let med_psiquiatricos = {};
-let med_teratogenicos = {};
-let medicamentos = {};
-let vacinas = {};
-let outros = {};
-
 
 let locks = {};
 let resolveLoad;
+
 locks['onload'] = new Promise((resolve, _) => {
     resolveLoad = resolve;
 });
 
 let group_options = {}
-
 let orientations = {};
 
 (async () => {
+    let anti_hipertensivos_med_cardiologicos = {};
+    let cirurgias_procedimentos = {};
+    let condicoes_saude_sintomas = {};
+    let hormonios_antimetabolicos = {};
+    let med_psiquiatricos = {};
+    let med_teratogenicos = {};
+    let medicamentos = {};
+    let vacinas = {};
+    let outros = {};
+
     [
         anti_hipertensivos_med_cardiologicos,
         cirurgias_procedimentos,
@@ -78,7 +78,6 @@ window.addEventListener("DOMContentLoaded", () => {
     history.replaceState({ step: currentStep }, `Step ${currentStep}`, `#step_${currentStep}`);
 
     handlerTooltips();
-
 });
 
 function handlerTooltips() {
