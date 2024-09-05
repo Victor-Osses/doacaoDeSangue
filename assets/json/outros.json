@@ -55,7 +55,7 @@
       "options": {
         "yes": {
           "label": "Sim",
-          "orientation": "Inapto para doar sangue (prazos inferiores e consumo de pequenas quantidades devem ser avalizados pelo profissional de triagem)"
+          "orientation": "Inapto para doar sangue (prazos inferiores a 12 horas e consumo de pequenas quantidades devem ser avalizados pelo profissional de triagem)"
         }
       }
     },
@@ -64,7 +64,7 @@
       "options": {
         "novo_parceiro": {
           "label": "Início de relação sexual com NOVO(a) parceiro(a) nos últimos 6 meses",
-          "orientation": "Inapto por 6 meses."
+          "orientation": "Inapto por 6 meses a partir da relação."
         },
         "sexo_por_dinheiro_drogas": {
           "label": "Sexo em troca de dinheiro ou drogas",
@@ -76,7 +76,7 @@
         },
         "relacao_com_infeccao_sexual": {
           "label": "Relação com pessoa portadora de infecção sexualmente transmissível",
-          "orientation": "Inapto por 12 meses."
+          "orientation": "Inapto por 12 meses a partir da relação."
         },
         "historia_encarceramento": {
           "label": "Histórico de encarceramento ou confinamento obrigatório não domiciliar",
@@ -84,7 +84,7 @@
         },
         "terapia_renal_transfusao": {
           "label": "Parceiro de paciente em programa de terapia renal substitutiva ou com histórico de transfusão",
-          "orientation": "Inapto por 12 meses."
+          "orientation": "Inapto por 12 meses a partir da relação."
         }
       }
     },
